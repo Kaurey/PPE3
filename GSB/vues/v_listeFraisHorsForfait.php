@@ -1,5 +1,4 @@
-﻿<div id="refresh" name="refresh">
-<table class="listeLegere">
+﻿<table class="listeLegere">
   	   <caption>Descriptif des éléments hors forfait
        </caption>
              <tr>
@@ -29,8 +28,7 @@
           
           }
 	?>	                                        
-    </table>
- </div> 
+    </table> 
       <form action="index.php?uc=gererFrais&action=validerCreationFrais" method="post">
       <div class="corpsForm">
          
@@ -53,7 +51,7 @@
       </div>
       <div class="piedForm">
       <p>
-        <input id="ajouter" type="submit" value="Ajouter" size="20" onclick="ajouter();" />
+        <input id="ajouter" type="submit" value="Ajouter" size="20"/>
         <input id="effacer" type="reset" value="Effacer" size="20" />
       </p> 
       </div>

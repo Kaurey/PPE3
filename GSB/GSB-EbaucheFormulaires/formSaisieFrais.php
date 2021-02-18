@@ -67,8 +67,7 @@ if(empty($_SESSION['nom']) && (empty($_SESSION['prenom']))){
 	<h2>Outils</h2>
 	<ul><li>Frais</li>
 		<ul>
-			<li><a href="formSaisieFrais.php" >Nouveau</a></li>
-			<li><a href="formConsultFrais.php">Consulter</a></li>
+			<li><a href="../index.php?uc=etatFrais&action=validationFrais">Retour accueil</a></li>
 		</ul>
 	</ul>
 </div>
@@ -76,7 +75,7 @@ if(empty($_SESSION['nom']) && (empty($_SESSION['prenom']))){
 <div name="droite" style="float:left;width:80%;">
 	<div name="haut" style="margin: 2 2 2 2 ;height:10%;float:left;"><h1>Gestion des Frais</h1></div>	
 	<div name="bas" style="margin : 10 2 2 2;clear:left;background-color:77AADD;color:white;height:88%;">
-	<form name="formSaisieFrais" method="post" action="enregSaisieFrais.php">
+	<form name="formSaisieFrais" method="post" action="">
 		<h1> Saisie </h1>
 		<label class="titre">PERIODE D'ENGAGEMENT :</label>
 			<label style="float:left;">Mois (2 chiffres) : </label><input type="text" size="4" name="FRA_MOIS" class="zone" type="date" id="mois" value="<?php echo date('d')?>"/>
